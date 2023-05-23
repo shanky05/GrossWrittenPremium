@@ -10,6 +10,7 @@ namespace server.Controllers
     [ApiController]
     public class gwpController : ControllerBase
     {
+
         private readonly IGwpService _gwpService;
         public gwpController(IGwpService gwpService)
         {
